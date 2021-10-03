@@ -24,5 +24,11 @@
     "index.scss",
     "LICENSE",
     "README.md"
-  ]
+  ],
+  "dependencies": {
+    "sass-string": "^1.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.42.1"
+  }
 }
