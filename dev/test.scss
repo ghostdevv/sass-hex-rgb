@@ -1,0 +1,8 @@
+@use 'node_modules/sass-hex-rgb' as rgb;
+
+$values: toValues(#fff);
+
+.test {
+    --values: #{$values};
+    --test: #{fromValues($values)};
+}
