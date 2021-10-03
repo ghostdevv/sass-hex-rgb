@@ -1,0 +1,28 @@
+{
+  "name": "sass-hex-rgb",
+  "version": "1.0.0-0",
+  "description": "A util for converting hex values to rgb (e.g. #302def -> 48, 45, 239)",
+  "main": "./lib/main.scss",
+  "sass": "./lib/main.scss",
+  "scss": "./lib/main.scss",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghostdevv/sass-hex-rgb.git.git"
+  },
+  "author": "GHOST ghostdevbusiness@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghostdevv/sass-hex-rgb.git/issues"
+  },
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "homepage": "https://github.com/ghostdevv/sass-hex-rgb.git#readme",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ]
+}
