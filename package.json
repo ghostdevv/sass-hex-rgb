@@ -1,10 +1,10 @@
 {
   "name": "sass-hex-rgb",
-  "version": "1.0.0-0",
+  "version": "1.0.0-2",
   "description": "A util for converting hex values to rgb (e.g. #302def -> 48, 45, 239)",
-  "main": "./scss/main.scss",
-  "sass": "./scss/main.scss",
-  "scss": "./scss/main.scss",
+  "main": "./scss/rgb.scss",
+  "sass": "./scss/rgb.scss",
+  "scss": "./scss/rgb.scss",
   "type": "module",
   "repository": {
     "type": "git",
