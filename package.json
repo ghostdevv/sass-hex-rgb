@@ -16,8 +16,7 @@
     "url": "https://github.com/ghostdevv/sass-hex-rgb.git/issues"
   },
   "scripts": {
-    "dev": "gulp dev",
-    "build": "gulp build"
+    "dev": "sass dev/test.scss:dev/test.output.css --watch --no-source-map"
   },
   "homepage": "https://github.com/ghostdevv/sass-hex-rgb.git#readme",
   "files": [
