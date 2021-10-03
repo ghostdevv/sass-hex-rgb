@@ -1,0 +1,11 @@
+@function toRGBValues($colour) {
+    @return red($colour) + ', ' + green($colour) + ', ' + blue($colour);
+}
+
+@function toRGB($colour) {
+    @return rgb(red($colour), green($colour), blue($colour));
+}
+
+@function toRGBA($colour, $alpha: 1) {
+    @return rgba(toRGB($colour), $alpha);
+}
