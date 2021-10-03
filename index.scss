@@ -1,4 +1,4 @@
-@function toRGBValues($colour) {
+@function toValues($colour) {
     @return red($colour) + ', ' + green($colour) + ', ' + blue($colour);
 }
 
